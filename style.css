@@ -56,10 +56,13 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background: #FF9900;
-	color: black;
+	color: white;
 	font: 'Source Sans Pro',Arial, Sans-Serif;
-	background-image: none;  /* replace none with url('image-url') to set a background image  */
+	background: url('http://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/CarlC._Icahn_Laboratory_Princeton_University_NewJersey.jpg/800px-CarlC._Icahn_Laboratory_Princeton_University_NewJersey.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* You can alter the links within a div with the following syntax */
@@ -70,8 +73,8 @@ div.section {
 /* This alters the appearance of the div with id="signup". */
 #poem {
 	height: 110px;
-	background: white;
 	text-align: center;
+	background: #FF9900;
 }
 
 /* This alters the appearance of the div with id="whoweare" */
